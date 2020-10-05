@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Сдано"
+        android:id="@+id/done_menu"
+        android:icon="@drawable/correct"
+        android:iconTint="#37E33E"/>
+
+    <item android:title="В процессе"
+        android:id="@+id/in_progress_menu"
+        android:icon="@drawable/clock"/>
+    <item android:title="Провалено"
+        android:id="@+id/failed_menu"
+        android:icon="@drawable/close"/>
+</menu>
